@@ -1,0 +1,21 @@
+.WallPaper {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .stripe-pair {
+    display: flex;
+  }
+  
+  .light-stripe {
+    background-color: #67d36f;
+    height: 40vh;
+    flex: 1;
+  }
+  
+  .dark-stripe {
+    background-color: #58b45e;
+    height: 40vh;
+    flex: 1;
+  }
