@@ -7,7 +7,7 @@
     width: 300px;
     height: 40px;
     background-color: red;
-    top: 65vh;
+    bottom: 32vh;
     box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
     position: absolute;
     z-index: 5;
@@ -15,17 +15,22 @@
   
 .MainShelfItems{
     height: 275px;
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 200px 500px 30px 40px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
     position: absolute;
-    top: 36.1vh;
+    bottom: 42.5vh;
+    align-items: baseline;
+    /* margin-left: 50px; */
 }
   
 .lamp {
-    flex: 1;
+    /* flex: 1; */
     height: 70%;
+    bottom: 0;
 }
 
 .lamp-image {
@@ -33,12 +38,13 @@
     width: 100%;
     z-index: 1;
     position: relative;
+    margin-left: 50px;
 }
 
 .monitor {
-    flex: 1;
+    /* flex: 1; */
     height: 100%;
-    margin-left: -200px;
+    /* margin-left: -200px; */
 }
 
 .monitor-image {
@@ -46,10 +52,11 @@
     width: 100%;
     z-index: 0;
     position: relative;
+    /* margin-left: 50px; */
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .Shelf {
-        width: 600px;
+        width: 800px;
     }
 }

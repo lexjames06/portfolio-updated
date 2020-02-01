@@ -18,27 +18,29 @@ function App() {
   );
 }
 
-function MainShelf () {
+function MainShelf() {
   return (
     <div className='MainShelfElement'>
-      <div className='MainShelfItems'>
-        <div className='lamp'>
-          <img src={lamp} alt='' className='lamp-image' />
-        </div>
-        <div className='monitor'>
-          <img src={monitor} alt='' className='monitor-image' />
-        </div>
-        <div className='memoji'>
+      <div className='MainShelf'>
+        <div className='MainShelfItems'>
+          <div className='lamp'>
+            <img src={lamp} alt='' className='lamp-image' />
+          </div>
+          <div className='monitor'>
+            <img src={monitor} alt='' className='monitor-image' />
+          </div>
+          {/* <div className='memoji'>
           <img src={memoji} alt='' className='memoji-image' />
+        </div> */}
+          <div className='water'>
+            <img src={water} alt='' className='water-image' />
+          </div>
+          <div className='rubiks'>
+            <img src={rubiks} alt='' className='rubiks-image' />
+          </div>
         </div>
-        <div className='water'>
-          <img src={water} alt='' className='water-image' />
-        </div>
-        <div className='rubiks'>
-          <img src={rubiks} alt='' className='rubiks-image' />
-        </div>
+        <div className='Shelf'></div>
       </div>
-      <div className='MainShelf'><div className='Shelf'></div></div>
     </div>
   );
 }
