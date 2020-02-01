@@ -2,20 +2,21 @@
     display: flex;
     position: absolute;
     bottom: 0;
-  }
-  
-  .stripe-pair {
+}
+
+.stripe-pair {
     display: flex;
-  }
-  
-  .light-stripe {
+}
+
+.light-stripe {
     background-color: #67d36f;
     height: 40vh;
     flex: 1;
-  }
-  
-  .dark-stripe {
+    width: 12.5vw;
+}
+
+.dark-stripe {
     background-color: #58b45e;
     height: 40vh;
     flex: 1;
-  }
+}

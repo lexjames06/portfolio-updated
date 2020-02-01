@@ -1,20 +1,55 @@
-.WallPaper {
-  display: flex;
+.MainShelf {
+    display: flex;
+    justify-content: center;
 }
 
-.stripe-pair {
-  display: flex;
+.Shelf {
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    top: 65vh;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    position: absolute;
+    z-index: 5;
+}
+  
+.MainShelfItems{
+    height: 275px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 36.1vh;
+}
+  
+.lamp {
+    flex: 1;
+    height: 70%;
 }
 
-.light-stripe {
-  background-color: #67d36f;
-  height: 40vh;
-  flex: 1;
-  width: 12.5vw;
+.lamp-image {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
 }
 
-.dark-stripe {
-  background-color: #58b45e;
-  height: 40vh;
-  flex: 1;
+.monitor {
+    flex: 1;
+    height: 100%;
+    margin-left: -200px;
+}
+
+.monitor-image {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .Shelf {
+        width: 600px;
+    }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import WallPaper from './WallPaper'
-import './WallBorder.css'
+import './Wall.css'
 
 export default function WallBorder() {
     return (
